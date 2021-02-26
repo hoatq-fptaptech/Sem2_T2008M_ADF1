@@ -42,5 +42,10 @@ public class Main {
         arrD.remove(arrD.get(13));
         arrD.remove(5);
         System.out.println("So luong cho trong long: "+arrD.size());
+//        ArrayList<int> ix = new ArrayList<int>();// error
+        ArrayList<Integer> ix = new ArrayList<Integer>();
+        Integer x = new Integer(5);
+        Integer y = 10; // int y= 10; --> Integer y  = new Integer(y);
+        y+=20; // boxing - unboxing --> primitive <=> references : tu dong
     }
 }
