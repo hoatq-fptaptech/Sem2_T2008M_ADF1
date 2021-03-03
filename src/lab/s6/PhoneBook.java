@@ -14,7 +14,7 @@ public class PhoneBook extends Phone {
     @Override
     public void insertPhone(String name, String phone) {
         for(PhoneNumber p:phoneList){
-            if(p.getName().equals(name)){ // so sanh 2 string
+            if(p.getName().equals(name)){ // so sanh 2 string  world equals world -> true  helloworld equals world -> false
                 if(!p.getPhone().contains(phone)){ // kiem tra da co trong danh sach hay chua
                     p.addPhone(phone);
                 }
