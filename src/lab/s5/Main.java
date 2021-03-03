@@ -9,8 +9,13 @@ public class Main {
 //        p1.showInfo();
 //        p2.showInfo();
 
-        SinhVien s = new SinhVien();
-        s.inputInfo();
-        s.showInfo();
+//        SinhVien s = new SinhVien();
+//        s.inputInfo();
+//        s.showInfo();
+
+        GiaoVien gv = new GiaoVien();
+        gv.inputInfo();
+        gv.showInfo();
+
     }
 }
