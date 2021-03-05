@@ -19,6 +19,7 @@ public class MonHocDaiCuong extends MonHoc {
             }
         }
         LopHoc lh = new LopHoc(name,soluonghocsinh);
+        lh.nhapHocSinh();
         danhSachLopHoc.add(lh);
     }
 
@@ -56,6 +57,10 @@ public class MonHocDaiCuong extends MonHoc {
     public void inDanhSach() {
         for(LopHoc lh: danhSachLopHoc){
             System.out.println("Ten Lop:"+lh.getName()+" - Si so:"+lh.getSoLuongHocSinh());
+            System.out.println("Danh sach hoc sinh:");
+            for(String s: lh.dsHocSinh){
+                System.out.println(s);
+            }
         }
     }
 }
