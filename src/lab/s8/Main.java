@@ -7,7 +7,10 @@ public class Main {
         ArrayList ds =  new ArrayList();
         KhachHangVietNam khvn = new KhachHangVietNam();
         khvn.setSoLuong(217);
+        KhachHangVietNam khvn1 = new KhachHangVietNam();
+        khvn1.setSoLuong(317);
         ds.add(khvn);
+        ds.add(khvn1);
         KhachHangNuocNgoai khnn = new KhachHangNuocNgoai();
         khnn.setSoLuong(20);
         ds.add(khnn);
